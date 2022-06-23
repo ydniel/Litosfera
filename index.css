@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(209, 255, 253);
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color:rgb(155, 205, 250);
+
+}
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: rgb(155, 205, 250);
+    position: absolute;
+    top: 25px;
+    right: -30px;
+  }
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header a{
+    background: rgb(200, 243, 254);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;   
+}
+
+.introdução {
+        background: #fff;
+        padding: 40px;
+        text-align: right;
+        display: grid;
+        position: relative;
+        align-content: center;
+        justify-items: end;
+}
+    
+.nomes{
+    background-color:rgb(200, 229, 255) ;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(155, 205, 250);
+    padding: 40px;
+    margin-top: 0px;
+    border: 20px; 
+    border-style: solid; 
+    border-color:rgb(155, 205, 250);
+    align-self: center;  
+}
+
+.sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+
+}
+
+.grama1{
+    max-width: 65%;
+    background-position: center;
+    background-size: cover;
+    display: block;  
+    
+}
+.autores{
+    background-color: white;
+    width:606px ;
+    height: 235px;
+   
+}
+.autores img{
+    max-width: 20px;
+}
+
+.autoresnome {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 5px;  
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
